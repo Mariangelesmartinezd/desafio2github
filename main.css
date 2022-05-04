@@ -375,14 +375,24 @@ background-color: #C89265;
         grid-area: main;
     }    
         
-    .logo, .video{
+    .logo{
         display: flex;
         justify-content: center;
         animation-name: animacion-in;
-        animation-iteration-count:2;
+        animation-iteration-count:1;
         animation-timing-function: ease;
         animation-duration:2s;
         animation-delay: 1s; 
+    }
+    .video {
+        display: flex;
+        justify-content: center;
+        animation-name: animacion-out;
+        animation-iteration-count:1;
+        animation-timing-function: ease;
+        animation-duration:5s;
+        animation-delay: 1s;
+    }  
     }
     
         @keyframes animacion-in{
