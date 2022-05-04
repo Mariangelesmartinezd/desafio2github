@@ -32,7 +32,7 @@ main{
         max-width: 150px;   
     }
 .fondo-color{
-    background-image: linear-gradient( #eeccb0, rgba(165, 42, 42, 0.308));
+    background-image: linear-gradient(#eeccb0, rgba(165, 42, 42, 0.308));
         height: 200px;
         margin: auto;
     }
@@ -78,6 +78,7 @@ main{
         color:#70280a;
     } 
     .navegacion-menu{
+        background-image: linear-gradient(#eeccb0, rgba(165, 42, 42, 0.308));
         display:grid;
         justify-content:start;
         grid-template-areas: 
