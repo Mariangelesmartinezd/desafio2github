@@ -1,8 +1,8 @@
 .pagina-completa{
     display:grid;
     grid-template-areas:
-    "main"
     "header"
+    "main"
     "footer";
 } 
     /*...........................main mobile....PAGINA INICIAL..............*/
@@ -32,7 +32,7 @@ main{
         max-width: 150px;   
     }
 .fondo-color{
-    background-image: linear-gradient(#eeccb0, rgba(165, 42, 42, 0.308));
+    background-image: linear-gradient(#eeccb0, #a52a2a4f);
         height: 200px;
         margin: auto;
     }
@@ -139,6 +139,7 @@ ul{
     margin-top: auto;
     background-color: #C89265;
 }
+
 /*---------------------------header-MOBILE- MENU........................*/
 .pagina-menu{
     display: grid;
@@ -273,6 +274,7 @@ footer{
 
         .pagina-completa{
         height: 900px;
+        display: grid;
         grid-template-areas:
         "header header"
         "main main"
@@ -294,17 +296,16 @@ footer{
         flex-direction: row;
         justify-content: space-around;
         background-color: #C89265;
-        
-        
     }
     .link-inicio{
         font-family: 'Kanit', sans-serif;
-        color: white;
-        
+        color: white;   
     }
+    
    
     /*................................................PAGINA Menu..........................................*/
 .pagina-menu{
+    height: 900px;
     display: grid;
     grid-template-areas: 
     "header-menu header-menu"
@@ -334,6 +335,9 @@ header, main, footer{
 .link-inicio{
     font-family: 'Kanit', sans-serif;
     color: white;
+    }
+.navbar-brand{
+        width: 1000px;
     }
 /*-----------------------pagina pedidos--------------------------------*/
 .pagina-pedidos{
@@ -367,10 +371,6 @@ header, main, footer{
         font-family: 'Kanit', sans-serif;
         color: white;
         }
-    }
-
-
-
         /*-------------------------------------------------------MAIN....PAGINA INICIAL.......................................*/
     main{
         grid-area: main;
