@@ -604,7 +604,10 @@ header, main, footer{
     .pedidosya{
         text-align: center;
     }
-    
-
+.parrafo::before {
+    content: icon"✺";
+    color: green
+    width: 5px;
+}
 
 }
